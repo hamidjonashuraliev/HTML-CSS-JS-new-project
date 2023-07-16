@@ -1,0 +1,77 @@
+
+h1 {
+    color: aqua;
+    background-color: blueviolet;
+    font-style: italic;
+    text-decoration: underline;
+}
+h3 {
+
+    color: blue;
+    background-color:chartreuse
+    
+}
+.con {
+color:yellow
+
+}
+#boy {
+    color: rgb(20, 228, 9);
+    background-color:aqua;
+ text-decoration: line-through;
+}
+h2 {
+color:rgb(227, 11, 101)
+
+}
+ .bin {
+    color:tomato;
+    text-align: center;
+    background-color:rgb(230, 0, 255);
+    font-weight:700;
+  }
+  h4 {
+
+    color: green;
+background-color: yellow;
+ text-decoration: line-through;
+ font-size:150%;
+}
+.background-color{
+
+    background-color:yellow;
+}
+.text-bold {
+   font-weight: bold;
+}
+.font-weight {
+text-decoration: underline;
+
+}
+.font-style {
+    text-decoration: line-through;
+}
+.background-color {
+    color:aqua;
+}
+.von {
+    text-align: center;
+}
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 85, 0);
+    color: #55f605;
+    padding: 90px 100px 30px 80px;
+    /* padding-top: 40px;
+    padding-left: 60px;
+ padding-right: 40px;
+ padding-bottom: 10px;
+*/
+/* border-width: 20px;
+border-color: chartreuse;
+border-style: solid; */
+border: 20px dashed yellow;
+margin-top:20px;
+
+} 
