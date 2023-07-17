@@ -4,6 +4,7 @@ h1 {
     background-color: blueviolet;
     font-style: italic;
     text-decoration: underline;
+    text-transform:capitalize;
 }
 h3 {
 
@@ -21,7 +22,10 @@ color:yellow
  text-decoration: line-through;
 }
 h2 {
+    text-transform:uppercase;
+    /*  bu textni katta yo kichik harf qiberadi */
 color:rgb(227, 11, 101)
+
 
 }
  .bin {
@@ -73,5 +77,23 @@ border-color: chartreuse;
 border-style: solid; */
 border: 20px dashed yellow;
 margin-top:20px;
-
 } 
+.but {
+    padding: 8px 16px;
+    cursor: pointer ;
+    /* kursor mishka korinishi */
+    border: 2px solid red; 
+    border-radius: 12px;
+    color:blue;
+background-color:yellow ;
+text-transform: uppercase;
+transition: all 0.2s linear;
+
+
+
+
+}
+.but:hover {
+    background-color: #55f605;
+    padding: 8px 18px;
+}
