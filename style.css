@@ -10,11 +10,7 @@ h3 {
     background-color: chartreuse;
 }
 p {
-color: rgb(241, 17, 1);
-
-
-
-
+    color: rgb(241, 17, 1);
 }
 .con {
     color: yellow;
@@ -63,7 +59,7 @@ h4 {
 }
 
 .box {
-   display: inline-block;
+    display: inline-block;
     width: 400px;
     height: 300px;
     background-color: rgb(255, 85, 0);
@@ -102,35 +98,46 @@ border-style: solid; */
 }
 
 nav {
-    justify-content:space-evenly;
-    display: flex;
-    flex-direction: row ;
     height: 100px;
-    background-color:rgb(234, 255, 0);
-align-items:center;
+    background-color: rgb(0, 255, 217);
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: o;
+    top: 0;
+    z-index: 10;
+    flex-direction:row;
+    display: flex;
+    justify-content:space-between;
 }
 section div {
-width: 300px;
-height: 400px;
-background-color:darksalmon;
+    width: 300px;
+    height: 400px;
+    background-color: darksalmon;
 }
 section {
     gap: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 3px; 
+    margin-top: 3px;
 }
-.box-1 {
+.box-relative {
+    position: relative;
     width: 300px;
     height: 300px;
-    background-color:darkorchid;
+    background-color: darkorchid;
     margin-top: 50px;
-    position: relative;
-    left: 400px;
-    top: 700px;
-    position: absolute;
+    z-index: 1;
 }
-
+.box-1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(58, 50, 204);
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* kontent
 1 flex-direction; column, row, column- reverse, row reverse 
