@@ -121,7 +121,7 @@ section {
     grid-template-columns: repeat(4, 1fr);
     margin-top: 70px;
 }
-.box-relative {
+/* .box-relative {
     position: relative;
     width: 300px;
     height: 300px;
@@ -137,7 +137,7 @@ section {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 /* kontent
 1 flex-direction; column, row, column- reverse, row reverse 
